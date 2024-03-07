@@ -18,11 +18,16 @@ $font-size-base: 0.7rem;
 @import "bootstrap/mixins";
 @import "bootstrap/card";
 @import "bootstrap/root";
+@import "bootstrap/root";
 
 // 6. При необходимости включите любые другие части
 @import "bootstrap/utilities";
 @import "bootstrap/reboot";
 @import "bootstrap/tables";
+@import "bootstrap/buttons";
+
+
+
 
 @import "bootstrap/type";
 @import "bootstrap/images";
