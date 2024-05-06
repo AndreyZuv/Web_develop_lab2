@@ -6,36 +6,42 @@
   <meta name="viewport" content="width=device-width">
   <link rel="icon" href="assets/src/faviicon.svg" sizes="32x32">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
 
   <title>News Wave</title>
 </head>
 
 <body>
-  <header class="container-fluid text-center text-bg-primary"> 
+  <header class="container-fluid text-center text-bg-primary">
     <a href="#"><img src="assets/src/header_image.svg" class="img-fluid rounded"> </a>
   </header>
   <main>
     <div class="container my-3">
       <div class="row gap-3">
         <div class="col">
-          <div class="container mb-3"> 
-            <div class="container d-flex overflow-x-hidden" style="width: 480px;"> 
-              <a href="#"><img src="assets/src/image_news_1.png" style="width: 480px; height: 270px;"></a>
-              <a><img src="assets/src/image_news_1.png" style="width: 480px; height: 270px;"></a>
+          <div class="slider-container mb-3 rounded-2">
 
-              <a><img src="assets/src/image_news_1.png" style="width: 480px; height: 270px;"></a>
-              <a><img src="assets/src/image_news_1.png" style="width: 480px; height: 270px;"></a>
-
-              <a><img src="assets/src/image_news_1.png" style="width: 480px; height: 270px;"></a>
+            <div class="slider">
+              <a class="image-ref" href="#"><img src="assets/src/image_news_1.png" class="slider-image" width="600" height="330" alt=""></a>
+              <a class="image-ref" href="#"><img src="assets/src/image_news_2.png" class="slider-image" width="600" height="330" alt=""></a>
+              <a class="image-ref" href="#"><img src="assets/src/image_news_3.jpg" class="slider-image" width="600" height="330" alt=""></a>
+              <a class="image-ref" href="#"><img src="assets/src/image_news_4.png" class="slider-image" width="600" height="330" alt=""></a>
+              <a class="image-ref" href="#"><img src="assets/src/image_news_5.jpg" class="slider-image" width="600" height="330" alt=""></a>
+              <a class="image-ref" href="#"><img src="assets/src/image_news_5.jpg" class="slider-image" width="600" height="330" alt=""></a>
             </div>
-        </div>
+            <button class="prev-button" type="button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+            <button class="next-button" type="button" aria-label="Посмотреть следующий слайд">&gt;</button>
+          </div>
           <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
             <div class="col">
-              <a href="grid_news_1.html" class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
+              <a href="grid_news_1.html"
+                class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
                 <img src="assets/src/image_news_1_mini.jpg" class="card-img-top rounded-2 w-100" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Друг Овечкина временно покинул "Вашингтон". Новая эпидемия в НХЛ?</h4>
-                  <p class="card-text fs-5">Форвард "Вашингтона" Евгений Кузнецов пройдет программу помощи хоккеистам НХЛ</p>
+                  <p class="card-text fs-5">Форвард "Вашингтона" Евгений Кузнецов пройдет программу помощи хоккеистам
+                    НХЛ</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-bg-success fs-6">06 февраля 2024</small>
@@ -44,10 +50,12 @@
             </div>
 
             <div class="col">
-              <a href="grid_news_2.html" class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
+              <a href="grid_news_2.html"
+                class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
                 <img src="assets/src/image_news_2_mini.jpg" class="card-img-top rounded-2 w-100" alt="...">
                 <div class="card-body">
-                  <h4 class="card-title">Бетербиев и Бивол подерутся летом! Отвечаем на пять главных вопросов по бою</h4>
+                  <h4 class="card-title">Бетербиев и Бивол подерутся летом! Отвечаем на пять главных вопросов по бою
+                  </h4>
                   <p class="card-text fs-5">Бой Бетербиева против Бивола пройдет 1 июня в Саудовской Аравии</p>
                 </div>
                 <div class="card-footer">
@@ -57,7 +65,8 @@
             </div>
 
             <div class="col">
-              <a href="grid_news_3.html" class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
+              <a href="grid_news_3.html"
+                class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
                 <img src="assets/src/image_news_3_mini.jpg" class="card-img-top rounded-2 w-100" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Последний шанс. Хэмилтон идет в "Феррари" за рекордным титулом</h4>
@@ -70,7 +79,8 @@
             </div>
 
             <div class="col">
-              <a href="grid_news_4.html" class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
+              <a href="grid_news_4.html"
+                class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
                 <img src="assets/src/image_news_4_mini.jpg" class="card-img-top rounded-2 w-100" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">В "Шанхае" - без раскачки: клуб Слуцкого разгромно проиграл "Зениту"</h4>
@@ -83,7 +93,8 @@
             </div>
 
             <div class="col">
-              <a href="grid_news_5.html" class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
+              <a href="grid_news_5.html"
+                class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
                 <img src="assets/src/image_news_5_mini.jpg" class="card-img-top rounded-2 w-100" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Самсонова вышла в полуфинал турнира в Абу-Даби</h4>
@@ -96,11 +107,13 @@
             </div>
 
             <div class="col">
-              <a href="grid_news_6.html" class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
+              <a href="grid_news_6.html"
+                class="card h-100 link-underline link-underline-opacity-0 text-bg-success bg-gradient">
                 <img src="assets/src/image_news_6_mini.jpg" class="card-img-top rounded-2 w-100" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Лебедев назвал формальностью нейтральный статус россиян на Олимпиаде</h4>
-                  <p class="card-text fs-5">Боксер Лебедев назвал формальностью нейтральный статус россиян на Олимпиаде-2024</p>
+                  <p class="card-text fs-5">Боксер Лебедев назвал формальностью нейтральный статус россиян на
+                    Олимпиаде-2024</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-bg-success fs-6">9 февраля 2024</small>
@@ -108,70 +121,77 @@
               </a>
             </div>
 
-            
 
-          
+
+
           </div>
         </div>
 
         <div class="col-3 d-none d-lg-block">
           <div class="row">
             <div class="col-12 text-bg-secondary rounded-2">
-            <p class="fw-bold fs-4 mt-2">Главные новости</p>
-            <hr class="hr">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item text-bg-secondary ps-0">
-                <a href="grid_news_1.html" class="fs-5 link-underline link-underline-opacity-0">Друг Овечкина временно покинул "Вашингтон". Новая эпидемия в НХЛ?
-                <p class="fs-6 mb-0">11.38</p>  
-                </a>
-              </li>
+              <p class="fw-bold fs-4 mt-2">Главные новости</p>
+              <hr class="hr">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-bg-secondary ps-0">
+                  <a href="grid_news_1.html" class="fs-5 link-underline link-underline-opacity-0">Друг Овечкина временно
+                    покинул "Вашингтон". Новая эпидемия в НХЛ?
+                    <p class="fs-6 mb-0">11.38</p>
+                  </a>
+                </li>
 
-              <li class="list-group-item text-bg-secondary ps-0">
-                <a href="grid_news_2.html" class="fs-5 link-underline link-underline-opacity-0">Бетербиев и Бивол подерутся летом! Отвечаем на пять главных вопросов по бою
-                <p class="fs-6 mb-0">12.53</p>  
-                </a>
-              </li>
+                <li class="list-group-item text-bg-secondary ps-0">
+                  <a href="grid_news_2.html" class="fs-5 link-underline link-underline-opacity-0">Бетербиев и Бивол
+                    подерутся летом! Отвечаем на пять главных вопросов по бою
+                    <p class="fs-6 mb-0">12.53</p>
+                  </a>
+                </li>
 
-              <li class="list-group-item text-bg-secondary ps-0">
-                <a href="grid_news_3.html" class="fs-5 link-underline link-underline-opacity-0">Последний шанс. Хэмилтон идет в "Феррари" за рекордным титулом
-                <p class="fs-6 mb-0">12.53</p>  
-                </a>
-              </li>
+                <li class="list-group-item text-bg-secondary ps-0">
+                  <a href="grid_news_3.html" class="fs-5 link-underline link-underline-opacity-0">Последний шанс.
+                    Хэмилтон идет в "Феррари" за рекордным титулом
+                    <p class="fs-6 mb-0">12.53</p>
+                  </a>
+                </li>
 
-              <li class="list-group-item text-bg-secondary ps-0">
-                <a href="grid_news_4.html" class="fs-5 link-underline link-underline-opacity-0">В "Шанхае" - без раскачки: клуб Слуцкого разгромно проиграл "Зениту"
-                <p class="fs-6 mb-0 ">12.53</p>  
-                </a>
-              </li>
+                <li class="list-group-item text-bg-secondary ps-0">
+                  <a href="grid_news_4.html" class="fs-5 link-underline link-underline-opacity-0">В "Шанхае" - без
+                    раскачки: клуб Слуцкого разгромно проиграл "Зениту"
+                    <p class="fs-6 mb-0 ">12.53</p>
+                  </a>
+                </li>
 
-              <li class="list-group-item text-bg-secondary ps-0">
-                <a href="grid_news_5.html" class="fs-5 link-underline link-underline-opacity-0">Самсонова вышла в полуфинал турнира в Абу-Даби
-                <p class="fs-6 mb-0 ">14.13</p>  
-                </a>
-              </li>
+                <li class="list-group-item text-bg-secondary ps-0">
+                  <a href="grid_news_5.html" class="fs-5 link-underline link-underline-opacity-0">Самсонова вышла в
+                    полуфинал турнира в Абу-Даби
+                    <p class="fs-6 mb-0 ">14.13</p>
+                  </a>
+                </li>
 
-              <li class="list-group-item text-bg-secondary ps-0">
-                <a href="grid_news_6.html" class="fs-5 link-underline link-underline-opacity-0">Лебедев назвал формальностью нейтральный статус россиян на Олимпиаде
-                <p class="fs-6 mb-0 ">10.05</p>  
-                </a>
-              </li>
+                <li class="list-group-item text-bg-secondary ps-0">
+                  <a href="grid_news_6.html" class="fs-5 link-underline link-underline-opacity-0">Лебедев назвал
+                    формальностью нейтральный статус россиян на Олимпиаде
+                    <p class="fs-6 mb-0 ">10.05</p>
+                  </a>
+                </li>
 
-            </ul>
+              </ul>
             </div>
 
           </div>
         </div>
 
       </div>
-      <div class="btn-toolbar justify-content-between my-3" role="toolbar" aria-label="Панель инструментов с группами кнопок">
+      <div class="btn-toolbar justify-content-between my-3" role="toolbar"
+        aria-label="Панель инструментов с группами кнопок">
         <div class="btn-group text-bg-primary" role="group" aria-label="Первая группа">
           <button type="button" class="btn btn-outline-secondary fs-5">1</button>
           <button type="button" class="btn btn-outline-secondary fs-5">2</button>
           <button type="button" class="btn btn-outline-secondary fs-5">3</button>
           <button type="button" class="btn btn-outline-secondary fs-5">4</button>
+        </div>
       </div>
-    </div>
-  
+
   </main>
   <footer class="text-bg-primary text-center ">
 
@@ -181,7 +201,7 @@
     </div>
   </footer>
 
-  
+  <script src="assets/scripts/script.js"></script>
 </body>
 
 </html>
